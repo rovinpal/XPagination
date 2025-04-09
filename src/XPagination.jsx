@@ -15,7 +15,8 @@ const Pages = () => {
             setEmployees(data);
             console.log(setEmployees);
         } catch(error) {
-            console.error(error);
+            console.error("Failed to fetch data");
+            alert("Failed to fetch data");
         }
     }
 
